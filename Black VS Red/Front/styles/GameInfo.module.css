@@ -1,0 +1,83 @@
+.gameInfoContainer {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    border-radius: 15px;
+    padding: 20px;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .roundInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .roundTitle {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .timerIcon {
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  .timerText {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .phaseInfo {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .phaseLabel {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .phaseValue {
+    font-style: italic;
+  }
+  
+  .playerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .red {
+    background-color: rgba(231, 76, 60, 0.7);
+  }
+  
+  .black {
+    background-color: rgba(52, 73, 94, 0.7);
+  }
+  
+  .playerLabel {
+    font-size: 0.9em;
+  }
+  
+  .playerColor {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }

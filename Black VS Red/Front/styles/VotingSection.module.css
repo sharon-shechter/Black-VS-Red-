@@ -1,0 +1,41 @@
+/* VotingSection.module.css */
+.votingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .selectPlayer {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .voteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4136;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .voteButton:hover {
+    background-color: #ff725c;
+  }
+  
+  .voteButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }

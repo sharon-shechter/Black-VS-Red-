@@ -1,0 +1,70 @@
+/* styles/JoinForm.module.css */
+
+.form {
+    background-color: #34495e;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: skew(-5deg);
+    transition: transform 0.3s ease;
+    animation: glow 2s infinite;
+  }
+  
+  .form:hover {
+    transform: skew(-5deg) scale(1.05);
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #f7fff7;
+    color: #2c3e50;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #4ecdc4;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ff6b6b;
+    color: #f7fff7;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .button:hover {
+    background-color: #4ecdc4;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #ff6b6b;
+    }
+    50% {
+      box-shadow: 0 0 20px #ff6b6b;
+    }
+    100% {
+      box-shadow: 0 0 5px #ff6b6b;
+    }
+  }

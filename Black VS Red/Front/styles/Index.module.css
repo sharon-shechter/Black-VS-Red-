@@ -1,0 +1,57 @@
+/* styles/Index.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(300deg, #ff0000, #000000);
+  color: white;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif; /* Futuristic font for a gaming vibe */
+}
+
+.welcome {
+  font-size: 64px; /* Larger, bold title */
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff; /* Golden color for the welcome text */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8); /* Add text shadow for effect */
+  letter-spacing: 2px; /* Spaced-out letters for a bold statement */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.startButton {
+  background-color: #ffcc00; /* Golden color for button */
+  color: #0b0000; /* Black text */
+  border: 2px solid #ffffff; /* White border */
+  padding: 20px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px; /* Rounded button */
+  text-transform: uppercase; /* Capitalized button text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Glowing shadow for a 3D effect */
+}
+
+.startButton:hover {
+  background-color: #333333; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.8); /* Stronger shadow on hover */
+}
+
+.startButton:active {
+  transform: scale(0.98); /* Shrink on click for interaction feedback */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Lighter shadow when pressed */
+}

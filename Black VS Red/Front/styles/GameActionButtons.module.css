@@ -1,0 +1,54 @@
+/* Center the button in its container */
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the Start the Game button */
+  .startButton {
+    background: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+  }
+  
+  .startButton:hover {
+    background: linear-gradient(135deg, #88d3ce 0%, #6e45e2 100%);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .startButton:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Add pulse effect */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+    }
+    70% {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  
+  .startButton.pulsing {
+    animation: pulse 1.5s infinite;
+  }
+  
